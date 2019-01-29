@@ -19,9 +19,8 @@ class About extends Component {
                 <Link to={`${this.props.match.url}/2`}>Number 2</Link>
 
                 <Route path={`${this.props.match.path}/:id`} component={Detail} />
-
             </div>
-        );
+        )
     }
 }
 
